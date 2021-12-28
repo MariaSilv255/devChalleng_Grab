@@ -1,0 +1,56 @@
+.container{
+    background-color:  #4E5BEE;
+    float: left;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+}
+
+.inputs{
+    display:block;
+    border-radius: 25px;
+    width: 265px;
+    height: 35px;
+    border: 1px solid white;
+    background-color:#4E5BEE ;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.submit{
+    
+    background-color: white;
+    color: #808080;
+    font-weight: bold;
+}
+
+.logodiv{
+text-align: center;
+margin-top: 95px;
+}
+
+.logo{
+    width: 155px;
+    height: 225px;
+}
+.img2div{
+    float: right;
+    margin-right: 35px;
+    margin-top: 20px;
+    height: 100;
+    width: 100%;
+}
+.img2{
+    
+    float: right;
+    position: relative;
+    width: 1000px;
+    height: 611px;
+    object-fit: contain;
+
+}
+body{
+    margin: 0;
+    background-color: #F8F8F8;
+}
+
