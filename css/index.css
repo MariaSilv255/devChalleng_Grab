@@ -1,0 +1,75 @@
+.logodiv {
+    text-align: center;
+    margin-top: 95px;
+}
+
+.logo {
+    width: 170px;
+    height: 225px;
+}
+
+.center {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+
+}
+
+.rodape {
+
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+
+
+    .container {
+        background-color: #4E5BEE;
+        width: 90vh;
+        height: 100%;
+        position: absolute;
+    }
+
+    .img {
+        height: 100%;
+        width: 80%;
+        left: 65vh;
+        position: relative;
+        margin-top: 14px;
+
+
+    }
+
+    .image {
+        position: inherit;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .image {
+        display: none;
+    }
+
+    .container {
+        background-color: #4E5BEE;
+        width: 100%;
+        height: 100%;
+        float: left;
+        height: 100vh;
+        position: absolute;
+
+    }
+}

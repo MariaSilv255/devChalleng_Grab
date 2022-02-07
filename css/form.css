@@ -1,0 +1,46 @@
+.inputs{
+    box-shadow: 0 0 0 0;
+    background: transparent;
+    border: 0px;
+    height: 25px;
+    font-size: 15px;
+    width:  225px;
+    color: white;
+    
+}
+.inputs:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.input-container{
+    border: 2px solid white;
+    display: flex;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+.material-icons{
+    padding-left: 15px;
+    color: white;
+}
+
+.submit{
+    background-color: white;
+    font-weight: bold;
+    display:block;
+    border-radius: 25px;
+    width: 280px;
+    height: 35px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.erro{
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
